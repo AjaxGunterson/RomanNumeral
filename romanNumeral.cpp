@@ -25,7 +25,7 @@ int main() {
 	bool syntaxError = 0;
 
 	ifstream infile;
-	infile.open("C:\\Users\\nolan\\OneDrive\\School\\Computer Science\\roman2.txt");
+	infile.open("roman.txt");
 	if (!infile)
 	{
 		cout << "Error opening file..." << endl;
